@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="183558" started-at="2017-08-17T07:44:17Z" finished-at="2017-08-17T07:47:21Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="145671" started-at="2017-08-17T07:44:17Z" finished-at="2017-08-17T07:46:43Z">
+      <class name="tests.ParallelTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:tests.ParallelTest@17f6480]" name="openBrowser" is-config="true" duration-ms="21885" started-at="2017-08-17T13:14:17Z" finished-at="2017-08-17T13:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="findBannerLength()[pri:0, instance:tests.ParallelTest@17f6480]" name="findBannerLength" duration-ms="1" started-at="2017-08-17T13:14:39Z" finished-at="2017-08-17T13:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBannerLength -->
+        <test-method status="PASS" signature="TestCase_ALL(java.lang.String)[pri:0, instance:tests.ParallelTest@17f6480]" name="TestCase_ALL" duration-ms="122634" started-at="2017-08-17T13:14:39Z" finished-at="2017-08-17T13:16:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_ALL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ParallelTest@17f6480]" name="closeBrowser" is-config="true" duration-ms="1149" started-at="2017-08-17T13:16:42Z" finished-at="2017-08-17T13:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ParallelTest -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="165135" started-at="2017-08-17T07:44:17Z" finished-at="2017-08-17T07:47:03Z">
+      <class name="tests.ParallelTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:tests.ParallelTest@13fee20c]" name="openBrowser" is-config="true" duration-ms="6873" started-at="2017-08-17T13:14:17Z" finished-at="2017-08-17T13:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="findBannerLength()[pri:0, instance:tests.ParallelTest@13fee20c]" name="findBannerLength" duration-ms="1" started-at="2017-08-17T13:14:24Z" finished-at="2017-08-17T13:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBannerLength -->
+        <test-method status="PASS" signature="TestCase_ALL(java.lang.String)[pri:0, instance:tests.ParallelTest@13fee20c]" name="TestCase_ALL" duration-ms="156723" started-at="2017-08-17T13:14:24Z" finished-at="2017-08-17T13:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_ALL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ParallelTest@13fee20c]" name="closeBrowser" is-config="true" duration-ms="1538" started-at="2017-08-17T13:17:01Z" finished-at="2017-08-17T13:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ParallelTest -->
+    </test> <!-- Chrome Test -->
+    <test name="Internet Explorer Test" duration-ms="182079" started-at="2017-08-17T07:44:17Z" finished-at="2017-08-17T07:47:19Z">
+      <class name="tests.ParallelTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:tests.ParallelTest@1324409e]" name="openBrowser" is-config="true" duration-ms="6326" started-at="2017-08-17T13:14:17Z" finished-at="2017-08-17T13:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="findBannerLength()[pri:0, instance:tests.ParallelTest@1324409e]" name="findBannerLength" duration-ms="0" started-at="2017-08-17T13:14:24Z" finished-at="2017-08-17T13:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBannerLength -->
+        <test-method status="PASS" signature="TestCase_ALL(java.lang.String)[pri:0, instance:tests.ParallelTest@1324409e]" name="TestCase_ALL" duration-ms="174720" started-at="2017-08-17T13:14:24Z" finished-at="2017-08-17T13:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_ALL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ParallelTest@1324409e]" name="closeBrowser" is-config="true" duration-ms="1033" started-at="2017-08-17T13:17:18Z" finished-at="2017-08-17T13:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.ParallelTest -->
+    </test> <!-- Internet Explorer Test -->
+    <test name="IPad Test" duration-ms="183558" started-at="2017-08-17T07:44:17Z" finished-at="2017-08-17T07:47:21Z">
+      <class name="tests.ParallelTest">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:tests.ParallelTest@5d624da6]" name="startTime" is-config="true" duration-ms="31" started-at="2017-08-17T13:14:17Z" finished-at="2017-08-17T13:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:tests.ParallelTest@5d624da6]" name="openBrowser" is-config="true" duration-ms="6607" started-at="2017-08-17T13:14:17Z" finished-at="2017-08-17T13:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ipad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="findBannerLength()[pri:0, instance:tests.ParallelTest@5d624da6]" name="findBannerLength" duration-ms="0" started-at="2017-08-17T13:14:24Z" finished-at="2017-08-17T13:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBannerLength -->
+        <test-method status="PASS" signature="TestCase_ALL(java.lang.String)[pri:0, instance:tests.ParallelTest@5d624da6]" name="TestCase_ALL" duration-ms="175622" started-at="2017-08-17T13:14:24Z" finished-at="2017-08-17T13:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ipad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_ALL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.ParallelTest@5d624da6]" name="closeBrowser" is-config="true" duration-ms="1329" started-at="2017-08-17T13:17:20Z" finished-at="2017-08-17T13:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:tests.ParallelTest@5d624da6]" name="endTime" is-config="true" duration-ms="1289" started-at="2017-08-17T13:17:21Z" finished-at="2017-08-17T13:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+      </class> <!-- tests.ParallelTest -->
+    </test> <!-- IPad Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
