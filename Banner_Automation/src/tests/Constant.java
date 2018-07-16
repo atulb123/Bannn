@@ -90,7 +90,7 @@ public class Constant {
             new Format(MediaTypeKey, MediaType.VIDEO, EncodingKey, "black",
                  FrameRateKey, Rational.valueOf(30)),
             null);
-       Constant.screenRecorder.start();
+       Constant.screenRecorder.start(testing ah);
      
     }
 
